@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "F:/intern-project/ble_provisioning/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
