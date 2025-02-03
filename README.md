@@ -1,8 +1,8 @@
-# ESP32 BLE Wi-Fi Provisioning
+# ESP32 BLE Wi-Fi Provisioning using ESP IDF
 
 ## Overview
 
-This project demonstrates **Wi-Fi BLE provisioning** for ESP32 using **ESP-IDF**. It allows users to configure Wi-Fi credentials via a mobile app using **Bluetooth Low Energy (BLE)**.
+This project demonstrates **Wi-Fi BLE provisioning** for ESP32 using **ESP-IDF**. It allows users to configure Wi-Fi credentials via a mobile app using **Bluetooth Low Energy (BLE)**. I have used the same code that is there in - https://github.com/espressif/esp-idf/tree/master/examples/provisioning/wifi_prov_mgr , but I made few changes as I was using ESP IDF 5.3 CMD, and some fields of that code do not exist in ESP-IDF v5+.
 
 ---
 
@@ -25,7 +25,7 @@ Follow the official [ESP-IDF setup guide](https://docs.espressif.com/projects/es
 
 ```sh
 cd F:/intern-project/
-git clone https://github.com/example/esp32-ble-provisioning.git ble_provisioning
+git clone https://github.com/abnegative2904/ESP32_WIFI_BLE_PROVISIONING.git ble_provisioning
 cd ble_provisioning
 ```
 
@@ -41,9 +41,7 @@ idf.py --version  # Verify ESP-IDF is set up
 idf.py menuconfig
 ```
 
-- Navigate to **Example Configuration**
-- Select **Provisioning Transport** → **BLE**
-- Save and exit
+- I didnt made any changes in this.
 
 ### **4. Build & Flash**
 
@@ -83,46 +81,35 @@ I (5005) wifi_prov_mgr: Provisioning started with BLE scheme
 I (10000) app: Wi-Fi connected successfully!
 ```
 
-### **📸 Screenshot 1: ESP32 Advertising BLE**
+### **📸 Screenshot 1: Mobile App**
 <p align="center">
   <img src="assets_ble/Mobile_app.jpeg" width="300">
 </p>
 
 
 
-### **📸 Screenshot 2: Mobile App Entering Wi-Fi Credentials**
+### **📸 Screenshot 2: QR Generation after idf.py monitor**
+<p align="center">
+<img src="assets_ble/QR_Code_Generated.png" width="300">
+</p>
 
-<img src="assets_ble/Mobile_app.jpeg" width="300">
+### **📸 Screenshot 3: Succesful Wifi shared via Bluetooth**
+<p align="center">
+<img src="assets_ble/ESP_BLE_PROV_SUCCESFUL.jpeg" width="300">
+</p>
 
-### **📸 Screenshot 3: Successful Wi-Fi Connection**
+### **📸 Screenshot 3: Output Log**
+<p align="center">
+<img src="assets_ble/Hello_World_Log.jpeg" width="300">
+</p>
 
-<img src="assets_ble/Mobile_app.jpeg" width="300">
-
-### **📸 Screenshot 3: Successful Wi-Fi Connection**
-
-<img src="assets_ble/Mobile_app.jpeg" width="300">
-
----
-
-## Troubleshooting
-
-### **1. ESP32 Not Appearing in BLE Scan?**
-
-- Ensure BLE is enabled in **menuconfig**.
-- Restart the ESP32 and try again.
-
-### **2. Wi-Fi Not Connecting?**
-
-- Double-check SSID & password.
-- Move ESP32 closer to the router.
-
-### **3. Monitor Not Showing Logs?**
-
-- Run `idf.py monitor` to debug real-time logs.
+### **Demo Video**
+https://github.com/user-attachments/assets/764823e2-1029-4787-ade7-38fb97db0efa
 
 ---
+
 
 ## Conclusion
 
-ESP32 BLE Wi-Fi provisioning **eliminates hardcoded Wi-Fi credentials** and makes user setup simple. 🚀
+ESP32 BLE Wi-Fi provisioning **eliminates hardcoded Wi-Fi credentials** and makes user setup simple. 
 
