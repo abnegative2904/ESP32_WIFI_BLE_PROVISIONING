@@ -84,16 +84,23 @@ I (10000) app: Wi-Fi connected successfully!
 ```
 
 ### **📸 Screenshot 1: ESP32 Advertising BLE**
+<p align="center">
+  <img src="assets_ble/Mobile_app.jpeg" width="300">
+</p>
 
-*(Add screenshot here)*
+
 
 ### **📸 Screenshot 2: Mobile App Entering Wi-Fi Credentials**
 
-*(Add screenshot here)*
+<img src="assets_ble/Mobile_app.jpeg" width="300">
 
 ### **📸 Screenshot 3: Successful Wi-Fi Connection**
 
-*(Add screenshot here)*
+<img src="assets_ble/Mobile_app.jpeg" width="300">
+
+### **📸 Screenshot 3: Successful Wi-Fi Connection**
+
+<img src="assets_ble/Mobile_app.jpeg" width="300">
 
 ---
 
